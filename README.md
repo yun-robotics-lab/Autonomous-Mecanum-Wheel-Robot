@@ -50,27 +50,13 @@ The project will be developed **simulation-first**, followed by a physical proto
 
 ## 🏗️ System Architecture
 
-```text
-             Raspberry Pi 4B
-                  │
-                ROS 2
-                  │
-        ┌─────────┴─────────┐
-        │                   │
-      Sensors          STM32 Controllers
-   ┌────┼────┐          ┌────┴────┐
- LiDAR IMU Camera       FL/RL     FR/RR
-                          │         │
-                     Motor Drivers
-                          │
-                       4 Motors
-```
+<img src="docs/images/System_Architecture_AMR_Mecanum_wheel" alt="system_architecture" width="500">
 
 ### Software Stack
 
 * Ubuntu 22.04
 * ROS 2 Humble
-* Gazebo
+* Gazebo Fortress
 * Nav2
 * SLAM Toolbox
 * RViz2
