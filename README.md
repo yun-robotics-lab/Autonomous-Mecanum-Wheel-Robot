@@ -50,7 +50,7 @@ The project will be developed **simulation-first**, followed by a physical proto
 
 ## 🏗️ System Architecture
 
-<img src="docs/images/System_Architecture_AMR_Mecanum_wheel" alt="system_architecture" width="500">
+<img src="docs/images/System_Architecture_AMR_Mecanum_wheel.jpeg" alt="system_architecture" width="500">
 
 ### Software Stack
 
